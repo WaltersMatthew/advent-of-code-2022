@@ -12,9 +12,11 @@ for input in data:
         if i in current[0]:
             commons.append(i)
             break
+print(ord('A') - 38)
+print(ord('a') - 96)
 for letter in commons:
     if letter.isupper():
         nums.append(ord(letter) - 38)
     else:
         nums.append(ord(letter) - 96)
-print(sum(nums))
+print(len(data))
